@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS reserva (
+    id BIGSERIAL PRIMARY KEY,
+    alumno VARCHAR(100) NOT NULL,
+    aula VARCHAR(20) NOT NULL,
+    fecha DATE NOT NULL
+);
